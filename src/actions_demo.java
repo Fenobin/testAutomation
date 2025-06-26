@@ -24,6 +24,7 @@ public class actions_demo {
 		driver.manage().window().maximize();
 
 		driver.get("https://mail.google.com/");
+		driver.manage().window().maximize();
 		
 		WebElement username = driver.findElement(By.xpath("//input[@type='email']"));
 		
