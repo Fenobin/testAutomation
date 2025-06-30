@@ -21,7 +21,7 @@ public class MiscExamples {
 //
 		//BROKEN LINKS PROGRAM
 		 driver.get("https://demoqa.com/links");
-	      Thread.sleep(3000);
+	      Thread.sleep(4000);
 	      String url="";
 	      List<WebElement> allURLs = driver.findElements(By.tagName("a"));
 	      System.out.println("Total links on the Wb Page: " + allURLs.size());
